@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.4.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.0
 
 WORKDIR /usr/share/elasticsearch/
 RUN  bin/elasticsearch-plugin install -b ingest-geoip
